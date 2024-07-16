@@ -12,8 +12,8 @@ export const LoggedIn = () => {
 
   return (
     <div>
-      <button onClick={handleLogin}></button>
-      <button onClick={handleLogout}></button>
+      <button onClick={handleLogin}>Login</button>
+      <button onClick={handleLogout}>Logout</button>
       <div>User is {isLoggedIn ? "logged in " : "logged out"}</div>
     </div>
   );
